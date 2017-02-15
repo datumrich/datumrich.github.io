@@ -4,7 +4,12 @@
     "repositoryName": "datumrich.github.io",
     "branch": "master"
   },
+  "site": {
+    "title": "Things on the Internet: What Are They Talking To?",
+    "description": "This is a collection of notes and observations about families of products and what they interact with on the internet"
+  },
+  "socialnetwork": {},
   "theme": {
-    "name": "Casper"
+    "name": "casper"
   }
 }
