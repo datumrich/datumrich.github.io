@@ -1,0 +1,13 @@
+= Alexa
+:hp-tags: Alexa, IoT, Amazon
+
+==== Alexa Connections
+Monitoring Alexa communications
+
+
+    443/TCP - Amazon
+    80/TCP - v4 & v6 Edgecast / Server Central / Akamai / s3-1-w.amazonaws.com 
+        Alexa Skills hosted different places?
+        Follow up - Quantify number of endpoints by typer per day
+    123/UDP - v4 & v6 Amazon / pool.ntp.org?
+    53/UDP - v4 & v6 Google Public DNS
