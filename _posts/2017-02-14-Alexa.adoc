@@ -2,7 +2,7 @@
 :hp-tags: Alexa, IoT, Amazon, Skills
 
 ==== Alexa Connections
-Monitoring Alexa communications
+Monitoring Alexa communications to understand the relationship between  Alexa use / Endpoints / Skills ... etc
 
 
     443/TCP - Amazon
