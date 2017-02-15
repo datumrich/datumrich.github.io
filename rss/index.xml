@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>https://datumrich.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 15 Feb 2017 02:44:31 GMT</lastBuildDate><atom:link href="https://datumrich.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Nest Devices]]></title><description><![CDATA[<div id="preamble">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>https://datumrich.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 15 Feb 2017 03:15:07 GMT</lastBuildDate><atom:link href="https://datumrich.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Osram Lightify Gateway]]></title><description><![CDATA[<div class="paragraph">
+<p>The Osram Lightify backend is the Arrayent Platform ( <a href="http://www.arrayent.com/platform/" class="bare">http://www.arrayent.com/platform/</a> ). The fixed / minimal cloud endpoints make ASN / Netblock whitelisting a potential control.</p>
+</div>
+<div class="paragraph">
+<p>In over 2 months the platform has only interacted with three IPs. Two very consistently from ASN 7151. Using both 80/TCP &amp; 80/UDP</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>7151 | vXchange Operating, LLC</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>In one instance 80/TCP 3356 ( Level3 ) could be firmware update?</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>*.site1.compute.ihost.com</pre>
+</div>
+</div>]]></description><link>https://datumrich.github.io/2017/02/14/Osram-Lightify-Gateway.html</link><guid isPermaLink="true">https://datumrich.github.io/2017/02/14/Osram-Lightify-Gateway.html</guid><category><![CDATA[Osram]]></category><category><![CDATA[ Lightify]]></category><category><![CDATA[ Arrayent]]></category><pubDate>Tue, 14 Feb 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Nest Devices]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>Family identified by MAC Address, classifying the type of Nest devices by looking at its connections</p>
