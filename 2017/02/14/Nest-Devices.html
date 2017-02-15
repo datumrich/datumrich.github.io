@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Nest Devices</title>
+    <meta name="description" content="" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="https://datumrich.github.io/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="//datumrich.github.io/themes/casper/assets/css/screen.css?v=1487119778615" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+
+    <link rel="canonical" href="https://datumrich.github.io/2017/02/14/Nest-Devices.html" />
+    <meta name="referrer" content="origin" />
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Nest Devices" />
+    <meta property="og:description" content="Family identified by MAC Address, classifying the type of Nest devices by looking at its connections Nest Connections Goal: Method for identifying thermostat vs. Nestcam ( dropcam ) w/o human review Thermostats uses port 9543 &amp;amp; 80 as well as { 443 , 123 } 9543/TCP - v4 long running connections to Amazon" />
+    <meta property="og:url" content="https://datumrich.github.io/2017/02/14/Nest-Devices.html" />
+    <meta property="article:tag" content="Nest" />
+    <meta property="article:tag" content=" Nest Devices" />
+    <meta property="article:tag" content=" Thermostat" />
+    <meta property="article:tag" content=" Nestcam" />
+    <meta property="article:tag" content=" Dropcam" />
+    <meta property="article:tag" content=" Ports" />
+    <meta property="article:tag" content=" Profile" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Nest Devices" />
+    <meta name="twitter:description" content="Family identified by MAC Address, classifying the type of Nest devices by looking at its connections Nest Connections Goal: Method for identifying thermostat vs. Nestcam ( dropcam ) w/o human review Thermostats uses port 9543 &amp;amp; 80 as well as { 443 , 123 } 9543/TCP - v4 long running connections to Amazon" />
+    <meta name="twitter:url" content="https://datumrich.github.io/2017/02/14/Nest-Devices.html" />
+    
+    <script type="application/ld+json">
+null
+    </script>
+
+    <meta name="generator" content="HubPress" />
+    <link rel="alternate" type="application/rss+xml" title="" href="https://datumrich.github.io/rss/" />
+</head>
+<body class="post-template tag-Nest tag-Nest-Devices tag-Thermostat tag-Nestcam tag-Dropcam tag-Ports tag-Profile nav-closed">
+
+    
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post tag-Nest tag-Nest-Devices tag-Thermostat tag-Nestcam tag-Dropcam tag-Ports tag-Profile">
+
+        <header class="post-header">
+            <h1 class="post-title">Nest Devices</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2017-02-14">14 February 2017</time>  on <a href="https://datumrich.github.io/tag/Nest/">Nest</a>, <a href="https://datumrich.github.io/tag/Nest-Devices/"> Nest Devices</a>, <a href="https://datumrich.github.io/tag/Thermostat/"> Thermostat</a>, <a href="https://datumrich.github.io/tag/Nestcam/"> Nestcam</a>, <a href="https://datumrich.github.io/tag/Dropcam/"> Dropcam</a>, <a href="https://datumrich.github.io/tag/Ports/"> Ports</a>, <a href="https://datumrich.github.io/tag/Profile/"> Profile</a>
+            </section>
+        </header>
+
+        <section class="post-content">
+            <div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Family identified by MAC Address, classifying the type of Nest devices by looking at its connections</p>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_nest_connections">Nest Connections</h4>
+<div class="paragraph">
+<p>Goal: Method for identifying thermostat vs. Nestcam ( dropcam ) w/o human review</p>
+</div>
+<div class="paragraph">
+<p>Thermostats uses port 9543 &amp; 80 as well as { 443 , 123 }</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>9543/TCP - v4 long running connections to Amazon IP
+443/TCP - v4 multiple Amazon IPs per day
+123/UDP - v4 and v6 time1.google.com
+80 - v4 and v6
+	connman.com           80/TCP
+	ipv4.connman.net      80/TCP</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Nestcam / Dropcam only uses { 443, 123, 53 }</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>443 - v4 Amazon IP
+123 - v4 pool.ntp.org
+53 - v4 { 8.8.8.8, 8.8.4.4 }</pre>
+</div>
+</div>
+</div>
+        </section>
+
+        <footer class="post-footer">
+
+
+            <figure class="author-image">
+                <a class="img" href="https://datumrich.github.io/author/datumrich/" style="background-image: url(https://avatars.githubusercontent.com/u/3672377?v&#x3D;3)"><span class="hidden">datumrich's Picture</span></a>
+            </figure>
+
+            <section class="author">
+                <h4><a href="https://datumrich.github.io/author/datumrich/">datumrich</a></h4>
+
+                    <p>Read <a href="https://datumrich.github.io/author/datumrich/">more posts</a> by this author.</p>
+                <div class="author-meta">
+                    
+                    
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=Nest%20Devices&amp;url=https://datumrich.github.io/2017/02/14/Nest-Devices.html"
+                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://datumrich.github.io/2017/02/14/Nest-Devices.html"
+                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=https://datumrich.github.io/2017/02/14/Nest-Devices.html"
+                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+        </footer>
+
+
+    </article>
+
+</main>
+
+<aside class="read-next">
+</aside>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="https://datumrich.github.io"></a> &copy; 2017</section>
+            <section class="poweredby">Proudly published with <a href="http://hubpress.io">HubPress</a></section>
+        </footer>
+
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js?v="></script> 
+      <script type="text/javascript">
+        jQuery( document ).ready(function() {
+          // change date with ago
+          jQuery('ago.ago').each(function(){
+            var element = jQuery(this).parent();
+            element.html( moment(element.text()).fromNow());
+          });
+        });
+
+        hljs.initHighlightingOnLoad();
+      </script>
+
+    <script type="text/javascript" src="//datumrich.github.io/themes/casper/assets/js/jquery.fitvids.js?v=1487119778615"></script>
+    <script type="text/javascript" src="//datumrich.github.io/themes/casper/assets/js/index.js?v=1487119778615"></script>
+
+</body>
+</html>
