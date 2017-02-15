@@ -1,0 +1,13 @@
+= Osram Lightify Gateway
+:hp-tags: Osram, Lightify, Arrayent
+
+The Osram Lightify backend is the Arrayent Platform ( http://www.arrayent.com/platform/ ). The fixed / minimal cloud endpoints make ASN / Netblock whitelisting a potential control.
+
+In over 2 months the platform has only interacted with three IPs. Two very consistently from ASN 7151. Using both 80/TCP & 80/UDP 
+
+	7151 | vXchange Operating, LLC
+    
+
+In one instance 80/TCP 3356 ( Level3 ) could be firmware update?
+
+	*.site1.compute.ihost.com
