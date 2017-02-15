@@ -22,3 +22,9 @@ Nestcam / Dropcam only uses { 443, 123, 53 }
     123 - v4 pool.ntp.org
     53 - v4 { 8.8.8.8, 8.8.4.4 }
 
+The Nest Lab ( Thermostat ) company aquired Dropcam June, 2014
+The Nest Lab was aquired by Google January, 2014
+The Nest platform using Amazon as a backend despite Google's competeing cloud investment stands as another proof of the stickiness of clouds.
+
+To put this into perspective, individual Nest cameras upload between 1.5 and 6 GB of data per day into Amazon. Aside from bandwidth, there is the data storage, data processing ( motion identification ), and notifications.
+
