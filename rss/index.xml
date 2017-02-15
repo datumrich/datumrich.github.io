@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>https://datumrich.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 15 Feb 2017 02:31:25 GMT</lastBuildDate><atom:link href="https://datumrich.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Nest Devices]]></title><description><![CDATA[<div id="preamble">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>https://datumrich.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 15 Feb 2017 02:34:33 GMT</lastBuildDate><atom:link href="https://datumrich.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Nest Devices]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>Family identified by MAC Address, classifying the type of Nest devices by looking at its connections</p>
@@ -33,35 +33,4 @@
 53 - v4 { 8.8.8.8, 8.8.4.4 }</pre>
 </div>
 </div>
-</div>]]></description><link>https://datumrich.github.io/2017/02/14/Nest-Devices.html</link><guid isPermaLink="true">https://datumrich.github.io/2017/02/14/Nest-Devices.html</guid><category><![CDATA[Nest]]></category><category><![CDATA[ Nest Devices]]></category><category><![CDATA[ Thermostat]]></category><category><![CDATA[ Nestcam]]></category><category><![CDATA[ Dropcam]]></category><category><![CDATA[ Ports]]></category><category><![CDATA[ Profile]]></category><pubDate>Tue, 14 Feb 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Alexa]]></title><description><![CDATA[<div class="sect3">
-<h4 id="_alexa_connections">Alexa Connections</h4>
-<div class="paragraph">
-<p>Monitoring Alexa communications to understand the relationship between  Alexa use / Endpoints / Skills &#8230;&#8203; etc</p>
-</div>
-<div class="literalblock">
-<div class="content">
-<pre>443/TCP - Amazon
-80/TCP - v4 &amp; v6 Edgecast / Server Central / Akamai / s3-1-w.amazonaws.com
-    Alexa Skills hosted different places?
-    Follow up - Quantify number of endpoints by typer per day
-123/UDP - v4 &amp; v6 Amazon / pool.ntp.org?
-53/UDP - v4 &amp; v6 Google Public DNS</pre>
-</div>
-</div>
-<div class="paragraph">
-<p>Looking further into the 80 connections they are concentrated in a few ASNs. The spread across ISP and Corp space could hint at Alexa Skill based ASN whitelisting? ( If its possible to tie Skills to netblocks )</p>
-</div>
-<div class="literalblock">
-<div class="content">
-<pre>16509   | Amazon.com, Inc., US
-7015 	| Comcast Cable Communications, LLC, US
-20214	| Comcast Cable Communications, LLC, US
-43650   | SPOTIFY , BG
-54005   | TUNEIN - TUNEIN, INC., US
-23352   | SERVERCENTRAL - Server Central Network, US
-15133   | EDGECAST
-209     | CENTURYLINK-US-LEGACY-QWEST
-5580    | HIBERNIA , NL</pre>
-</div>
-</div>
-</div>]]></description><link>https://datumrich.github.io/2017/02/14/Alexa.html</link><guid isPermaLink="true">https://datumrich.github.io/2017/02/14/Alexa.html</guid><category><![CDATA[Alexa]]></category><category><![CDATA[ IoT]]></category><category><![CDATA[ Amazon]]></category><category><![CDATA[ Skills]]></category><pubDate>Tue, 14 Feb 2017 00:00:00 GMT</pubDate></item></channel></rss>
+</div>]]></description><link>https://datumrich.github.io/2017/02/14/Nest-Devices.html</link><guid isPermaLink="true">https://datumrich.github.io/2017/02/14/Nest-Devices.html</guid><category><![CDATA[Nest]]></category><category><![CDATA[ Nest Devices]]></category><category><![CDATA[ Thermostat]]></category><category><![CDATA[ Nestcam]]></category><category><![CDATA[ Dropcam]]></category><category><![CDATA[ Ports]]></category><category><![CDATA[ Profile]]></category><pubDate>Tue, 14 Feb 2017 00:00:00 GMT</pubDate></item></channel></rss>
