@@ -12,6 +12,8 @@ Monitoring Alexa communications to understand the relationship between  Alexa us
     123/UDP - v4 & v6 Amazon / pool.ntp.org?
     53/UDP - v4 & v6 Google Public DNS
 
+image::https://github.com/datumrich/datumrich.github.io/blob/master/images/Alexa_Protocol_Port_Hour.png[Alexa Traffic]
+
 Looking further into the 80 connections they are concentrated in a few ASNs. The spread across ISP and Corp space could hint at Alexa Skill based ASN whitelisting? ( If its possible to tie Skills to netblocks )
 
   16509   | Amazon.com, Inc., US
