@@ -1,5 +1,5 @@
 = Alexa
-:hp-tags: Alexa, IoT, Amazon
+:hp-tags: Alexa, IoT, Amazon, Skills
 
 ==== Alexa Connections
 Monitoring Alexa communications
@@ -11,3 +11,15 @@ Monitoring Alexa communications
         Follow up - Quantify number of endpoints by typer per day
     123/UDP - v4 & v6 Amazon / pool.ntp.org?
     53/UDP - v4 & v6 Google Public DNS
+
+Looking further into the 80 connections they are concentrated in a few ASNs. The spread across ISP and Corp space could hint at Alexa Skill based ASN whitelisting? ( If its possible to tie Skills to netblocks )
+
+  16509   | Amazon.com, Inc., US
+  7015 	| Comcast Cable Communications, LLC, US
+  20214	| Comcast Cable Communications, LLC, US
+  43650   | SPOTIFY , BG
+  54005   | TUNEIN - TUNEIN, INC., US
+  23352   | SERVERCENTRAL - Server Central Network, US
+  15133   | EDGECAST
+  209     | CENTURYLINK-US-LEGACY-QWEST
+  5580    | HIBERNIA , NL
