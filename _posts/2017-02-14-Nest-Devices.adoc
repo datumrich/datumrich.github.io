@@ -1,21 +1,24 @@
 = Nest Devices
+:hp-tags: Nest, Nest Devices, Thermostat, Nestcam, Dropcam, Ports, Profile
 
 Family identified by MAC Address, classifying the type of Nest devices by looking at its connections
 
-== Nest Connections
+==== Nest Connections
 
 Goal: Method for identifying thermostat vs. Nestcam ( dropcam ) w/o human review 
 
 Thermostats uses port 9543 & 80 as well as { 443 , 123 }
-	9543/TCP - v4 long running connections to Amazon IP
+
+    9543/TCP - v4 long running connections to Amazon IP
     443/TCP - v4 multiple Amazon IPs per day
     123/UDP - v4 and v6 time1.google.com
     80 - v4 and v6
-    	connman.com           80/TCP
-		ipv4.connman.net      80/TCP
+   		connman.com           80/TCP
+    	ipv4.connman.net      80/TCP
     	
 Nestcam / Dropcam only uses { 443, 123, 53 }
-	443 - v4 Amazon IP
+	
+    443 - v4 Amazon IP
     123 - v4 pool.ntp.org
     53 - v4 { 8.8.8.8, 8.8.4.4 }
 
