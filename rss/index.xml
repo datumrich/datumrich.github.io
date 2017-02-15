@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>https://datumrich.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 15 Feb 2017 00:49:38 GMT</lastBuildDate><atom:link href="https://datumrich.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Nest Devices]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Family identified by MAC Address, classifying the type of Nest devices by looking at its connections</p>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_nest_connections">Nest Connections</h4>
+<div class="paragraph">
+<p>Goal: Method for identifying thermostat vs. Nestcam ( dropcam ) w/o human review</p>
+</div>
+<div class="paragraph">
+<p>Thermostats uses port 9543 &amp; 80 as well as { 443 , 123 }</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>9543/TCP - v4 long running connections to Amazon IP
+443/TCP - v4 multiple Amazon IPs per day
+123/UDP - v4 and v6 time1.google.com
+80 - v4 and v6
+	connman.com           80/TCP
+	ipv4.connman.net      80/TCP</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Nestcam / Dropcam only uses { 443, 123, 53 }</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>443 - v4 Amazon IP
+123 - v4 pool.ntp.org
+53 - v4 { 8.8.8.8, 8.8.4.4 }</pre>
+</div>
+</div>
+</div>]]></description><link>https://datumrich.github.io/2017/02/14/Nest-Devices.html</link><guid isPermaLink="true">https://datumrich.github.io/2017/02/14/Nest-Devices.html</guid><category><![CDATA[Nest]]></category><category><![CDATA[ Nest Devices]]></category><category><![CDATA[ Thermostat]]></category><category><![CDATA[ Nestcam]]></category><category><![CDATA[ Dropcam]]></category><category><![CDATA[ Ports]]></category><category><![CDATA[ Profile]]></category><pubDate>Tue, 14 Feb 2017 00:00:00 GMT</pubDate></item></channel></rss>
