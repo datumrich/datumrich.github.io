@@ -12,7 +12,7 @@ Thermostats uses port 9543 & 80 as well as { 443 , 123 }
     9543/TCP - v4 long running connections to Amazon IP
     443/TCP - v4 multiple Amazon IPs per day
     123/UDP - v4 and v6 time1.google.com
-    80 - v4 and v6
+    80/TCP - v4 and v6
    		connman.com           80/TCP
     	ipv4.connman.net      80/TCP
     	
