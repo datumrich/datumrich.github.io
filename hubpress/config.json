@@ -6,7 +6,8 @@
   },
   "site": {
     "title": "Things on the Internet: What Are They Talking To?",
-    "description": "This is a collection of notes and observations about families of products and what they interact with on the internet"
+    "description": "This is a collection of notes and observations about families of products and what they interact with on the internet",
+    "postsPerPage": "5"
   },
   "socialnetwork": {},
   "theme": {
