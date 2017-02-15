@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>https://datumrich.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 15 Feb 2017 03:32:01 GMT</lastBuildDate><atom:link href="https://datumrich.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Smarter Things Hub]]></title><description><![CDATA[<div class="paragraph">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>https://datumrich.github.io</link><generator>RSS for Node</generator><lastBuildDate>Wed, 15 Feb 2017 03:45:27 GMT</lastBuildDate><atom:link href="https://datumrich.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Smarter Things Hub]]></title><description><![CDATA[<div class="paragraph">
 <p>The Smarter Things Platform is another potential proof of the stickiness of clouds. Samsung aquired Smarter Things from The Phyiscal Graph Corporation. Samsung purchased Joyent Cloud in June of 2016 &#8230;&#8203; cloud migration ?</p>
 </div>
 <div class="literalblock">
@@ -60,6 +60,14 @@
 123 - v4 pool.ntp.org
 53 - v4 { 8.8.8.8, 8.8.4.4 }</pre>
 </div>
+</div>
+<div class="paragraph">
+<p>The Nest Lab ( Thermostat ) company aquired Dropcam June, 2014
+The Nest Lab was aquired by Google January, 2014
+The Nest platform using Amazon as a backend despite Google&#8217;s competeing cloud investment stands as another proof of the stickiness of clouds.</p>
+</div>
+<div class="paragraph">
+<p>To put this into perspective, individual Nest cameras upload between 1.5 and 6 GB of data per day into Amazon. Aside from bandwidth, there is the data storage, data processing ( motion identification ), and notifications.</p>
 </div>
 </div>]]></description><link>https://datumrich.github.io/2017/02/14/Nest-Devices.html</link><guid isPermaLink="true">https://datumrich.github.io/2017/02/14/Nest-Devices.html</guid><category><![CDATA[Nest]]></category><category><![CDATA[ Nest Devices]]></category><category><![CDATA[ Thermostat]]></category><category><![CDATA[ Nestcam]]></category><category><![CDATA[ Dropcam]]></category><category><![CDATA[ Ports]]></category><category><![CDATA[ Profile]]></category><pubDate>Tue, 14 Feb 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Alexa]]></title><description><![CDATA[<div class="sect3">
 <h4 id="_alexa_connections">Alexa Connections</h4>
