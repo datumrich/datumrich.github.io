@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Things on the Internet: What Are They Talking To?]]></title><description><![CDATA[This is a collection of notes and observations about families of products and what they interact with on the internet]]></description><link>https://datumrich.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 16 Feb 2017 02:51:38 GMT</lastBuildDate><atom:link href="https://datumrich.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Smarter Things Hub]]></title><description><![CDATA[<div class="paragraph">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Things on the Internet: What Are They Talking To?]]></title><description><![CDATA[This is a collection of notes and observations about families of products and what they interact with on the internet]]></description><link>https://datumrich.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 16 Feb 2017 03:02:22 GMT</lastBuildDate><atom:link href="https://datumrich.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Philips Hue Hub]]></title><description><![CDATA[<div class="paragraph">
+<p>The Philips Hue Hub operates on a minimal number of ports to a pair or infastructure providers Google ASN 15169 &amp; Rackspace ASN 15395 (aside from NTP).</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>80/TCP - Rackspace and Google Cloud
+123/UDP - pool.ntp.org</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>One of the nice things about the Google Cloud listings is the banner clearly delineating their infrastructure from customer infrastructure</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>"The IP addresses under this Org-ID are in use by Google Cloud customers"</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Port 80 has a web server running hosting a page the displays a list of the open source technologies and their licenses used in the product.</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>PORT     STATE SERVICE
+80/tcp   open  http
+8080/tcp open  http-proxy
+Running: Linux 3.X|4.X, Philips embedded
+OS CPE: cpe:/o:linux:linux_kernel:3.14 cpe:/h:philips:hue_bridge_2.0 		cpe:/o:linux:linux_kernel:3.18 cpe:/o:linux:linux_kernel:4.1
+OS details: Philips Hue Bridge 2.0 (Linux 3.14), OpenWrt Chaos Calmer 15.05 (Linux 3.18) or Designated Driver (Linux 4.1)</pre>
+</div>
+</div>]]></description><link>https://datumrich.github.io/2017/02/15/Philips-Hue-Hub.html</link><guid isPermaLink="true">https://datumrich.github.io/2017/02/15/Philips-Hue-Hub.html</guid><category><![CDATA[Philips Hue]]></category><pubDate>Wed, 15 Feb 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Smarter Things Hub]]></title><description><![CDATA[<div class="paragraph">
 <p>The Smarter Things Platform is another potential proof of the stickiness of clouds. Samsung aquired Smarter Things from The Phyiscal Graph Corporation. Samsung purchased Joyent Cloud in June of 2016 &#8230;&#8203; cloud migration ?</p>
 </div>
 <div class="literalblock">
