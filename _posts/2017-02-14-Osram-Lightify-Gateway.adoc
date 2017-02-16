@@ -11,3 +11,9 @@ In over 2 months the platform has only interacted with three IPs. Two very consi
 In one instance 80/TCP 3356 ( Level3 ) could be firmware update?
 
 	*.site1.compute.ihost.com
+    
+During normal operation the device listens on port 4000
+
+	PORT     STATE 	SERVICE
+	4000/tcp  open  remoteanything
+
