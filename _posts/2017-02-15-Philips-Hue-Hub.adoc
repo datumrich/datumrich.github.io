@@ -1,0 +1,21 @@
+= Philips Hue Hub
+:hp-tags: Philips Hue, 
+
+The Philips Hue Hub operates on a minimal number of ports to a pair or infastructure providers Google ASN 15169 & Rackspace ASN 15395 (aside from NTP).
+
+	80/TCP - Rackspace and Google Cloud
+	123/UDP - pool.ntp.org
+
+One of the nice things about the Google Cloud listings is the banner clearly delineating their infrastructure from customer infrastructure
+
+	"The IP addresses under this Org-ID are in use by Google Cloud customers"
+
+Port 80 has a web server running hosting a page the displays a list of the open source technologies and their licenses used in the product.
+
+	PORT     STATE SERVICE
+	80/tcp   open  http
+	8080/tcp open  http-proxy
+	Running: Linux 3.X|4.X, Philips embedded
+	OS CPE: cpe:/o:linux:linux_kernel:3.14 cpe:/h:philips:hue_bridge_2.0 		cpe:/o:linux:linux_kernel:3.18 cpe:/o:linux:linux_kernel:4.1
+	OS details: Philips Hue Bridge 2.0 (Linux 3.14), OpenWrt Chaos Calmer 15.05 (Linux 3.18) or Designated Driver (Linux 4.1)
+
