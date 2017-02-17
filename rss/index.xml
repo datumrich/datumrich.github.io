@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Things on the Internet: What Are They Talking To?]]></title><description><![CDATA[This is a collection of notes and observations about families of products and what they interact with on the internet]]></description><link>https://datumrich.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 16 Feb 2017 03:02:22 GMT</lastBuildDate><atom:link href="https://datumrich.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Philips Hue Hub]]></title><description><![CDATA[<div class="paragraph">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Things on the Internet: What Are They Talking To?]]></title><description><![CDATA[This is a collection of notes and observations about families of products and what they interact with on the internet]]></description><link>https://datumrich.github.io</link><generator>RSS for Node</generator><lastBuildDate>Fri, 17 Feb 2017 03:34:48 GMT</lastBuildDate><atom:link href="https://datumrich.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Google Home]]></title><description><![CDATA[<div class="paragraph">
+<p>The sample is on the small side, but out of the gates the Google Home has a very strong IPv6 showing … Vint Cerf? It will be interesting to see the expansion in the number of endpoint interactions as additional news sources and integrations are added, but off the bat it shows … almost all IoT devices will interact with AWS for <strong>something</strong></p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>PORT      STATE SERVICE
+8008/tcp  open  http
+8009/tcp  open  ajp13
+10001/tcp open  scp-config
+Running: Linux 2.6.X|3.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3
+OS details: Linux 2.6.32 - 3.10</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>What does Google Home talk to and how?</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>443/TCP
+Google ASN 15169 - 172.217.0.0/16
+Google ASN 15169 - 173.194.0.0/16
+Google ASN 15169 - NET6-2607-F8B0-1
+Google ASN 15169 - 74.125.0.0/16
+Trintron Digital 13360 - 208.92.52.0/22
+Amazon 16509 - 35.160.0.0/13</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>5228/TCP
+Google ASN 15169 - NET6-2607-F8B0-1</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>80/TCP
+Google ASN 15169 - 172.217.0.0/16
+Google ASN 15169 - NET6-2607-F8B0-1</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>123/UDP
+IPv4 NIST Internet Time Servers</pre>
+</div>
+</div>]]></description><link>https://datumrich.github.io/2017/02/16/Google-Home.html</link><guid isPermaLink="true">https://datumrich.github.io/2017/02/16/Google-Home.html</guid><category><![CDATA[Google Home]]></category><category><![CDATA[ IPv6]]></category><category><![CDATA[ Amazon]]></category><pubDate>Thu, 16 Feb 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Philips Hue Hub]]></title><description><![CDATA[<div class="paragraph">
 <p>The Philips Hue Hub operates on a minimal number of ports to a pair or infastructure providers Google ASN 15169 &amp; Rackspace ASN 15395 (aside from NTP).</p>
 </div>
 <div class="literalblock">
