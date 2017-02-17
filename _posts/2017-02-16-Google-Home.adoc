@@ -1,0 +1,32 @@
+= Google Home
+:hp-tags: Google Home, IPv6, Amazon
+
+The sample is on the small side, but out of the gates the Google Home has a very strong IPv6 showing … Vint Cerf? It will be interesting to see the expansion in the number of endpoint interactions as additional news sources and integrations are added, but off the bat it shows … almost all IoT devices will interact with AWS for *something*
+
+  PORT      STATE SERVICE
+  8008/tcp  open  http
+  8009/tcp  open  ajp13
+  10001/tcp open  scp-config
+  Running: Linux 2.6.X|3.X
+  OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3
+  OS details: Linux 2.6.32 - 3.10
+
+What does Google Home talk to and how?
+
+  443/TCP
+  Google ASN 15169 - 172.217.0.0/16
+  Google ASN 15169 - 173.194.0.0/16
+  Google ASN 15169 - NET6-2607-F8B0-1
+  Google ASN 15169 - 74.125.0.0/16
+  Trintron Digital 13360 - 208.92.52.0/22
+  Amazon 16509 - 35.160.0.0/13
+
+  5228/TCP
+  Google ASN 15169 - NET6-2607-F8B0-1
+
+  80/TCP
+  Google ASN 15169 - 172.217.0.0/16
+  Google ASN 15169 - NET6-2607-F8B0-1
+
+  123/UDP
+  IPv4 NIST Internet Time Servers
